@@ -1,0 +1,48 @@
+<%@page import="java.sql.*"%>
+<%@page contentType="text/html" pageEcoding="UTF-8"%>
+
+<html>
+    <head>
+        <title>Adultos Mayores</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <%
+        
+        Connection con = null;
+        Statement st = null;
+        ResultSet rs = null;
+        
+        %>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">CC</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Habitación</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>332</td>
+                </tr>
+                
+            </tbody>
+        </table>
+            </div>
+            </div>
+            </div>
+
+    </body>
+</html>
